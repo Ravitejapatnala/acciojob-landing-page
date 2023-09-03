@@ -1,0 +1,605 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo{
+    flex: 2;
+}
+
+.logo>img{
+    padding: 2%;
+    margin-left: 10%;
+}
+
+.nav-items{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items>p{
+    padding-inline: 2%;
+}
+
+button{
+    background-color: white;
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+    border-radius: 8px;
+    padding: 12px 33px 12px 33px;
+}
+
+/* announcement */
+
+.announcement{
+    background-color: #2F80ED;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    position: sticky;
+    font-family: 'Inter', sans-serif;
+    top: 68px;
+}
+
+/* hero-section */
+
+.hero-section{
+    display: flex;
+}
+
+.hero-section>.main-message>#main{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    font-family: 'ABeeZee', sans-serif;
+    line-height: 65px;
+}
+
+#fullstack{
+    color: #2F80ED;
+}
+
+
+.hero-section>.main-message>#about{
+    font-weight: 400;
+    font-size: 13px;
+    color: #595959;
+    font-family: 'ABeeZee', sans-serif;
+    line-height: 23px;
+}
+
+.main-message{
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+#features{
+    display: flex;
+    box-shadow: 0px 2px 40px 0px #0000001F;
+    border-radius: 14px;
+    width: 560px;
+    margin-top: 30px;
+}
+
+#features>.feature-items{
+    display: flex;
+    padding: 2%;
+}
+
+#feature-img{
+    padding-inline: 5px;
+}
+
+.feature-desc{
+    font-weight: 400;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#feature-suffix{
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 9px;
+    font-style: normal;
+}
+
+#frame{
+    border-radius: 23px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 2px 40px 0px #0000001F;
+    width: fit-content;
+    color: #525252;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 70px;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-right{
+    border-radius: 18px;
+    box-shadow: 0px 25px 54px 0px #0000001F;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.hero-right-items{
+    padding: 30px;
+}
+
+#live-classes{
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#lectures-assignments{
+    font-weight: 400;
+    font-size: 12px;
+    color: #818d9d;
+}
+
+#name{
+    display: flex;
+    padding: 14px 6px 14px 6px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fafafa;
+    margin-bottom: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+#name>img{
+    padding-inline: 10px;
+}
+
+#phone{
+    display: flex;
+    padding: 14px 6px 14px 6px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fafafa;
+    color: #8393a9;
+    font-family: 'Inter', sans-serif;
+}
+
+#phone>img{
+    padding-inline: 10px;
+}
+
+#apply{
+    border-radius: 8px;
+    width: 300px;
+    padding: 14px 6px 14px 6px;
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    color: white;
+    font-style: italic;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+#applying>p{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: #818d9d;
+}
+
+#applying>p>a{
+    text-decoration: none;
+    color: #2F80ED;
+}
+
+#attend-class{
+    margin-bottom: 20px;
+}
+
+#details{
+    margin-bottom: 20px;
+}
+
+.table-image>img{
+    margin-right: 10px;
+}
+
+.table-left{
+    padding-right: 50px;
+}
+
+/* courses */
+
+.courses{
+    background-color: #ecf8ff;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.beginner{
+    background-color: white;
+    width: fit-content;
+    border-radius: 9px;
+    border: 2px solid #2f80ed;
+    padding: 20px 10px;
+    margin-right: 30px;
+}
+
+.courses>#course-heading{
+    text-align: center;
+}
+
+.courses>#course-list{
+    text-align: center;
+}
+
+.beg-logo{
+    display: flex;
+    padding-inline: 120px;
+    margin-bottom: 20px;
+}
+
+.beg-logo>img{
+    margin-right: 10px;
+}
+
+.offer{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.offer>.job-guarentee{
+    background-color: #e0f3ff;
+    border-radius: 7px;
+    padding: 6px 15px 6px 15px;
+    margin-right: 8px;
+    font-family: 'Inter', sans-serif;
+    color: #1d78b0;
+    font-size: 14px;
+}
+
+.offer>.access{
+    background-color: #e0f3ff;
+    border-radius: 7px;
+    padding: 6px 15px 6px 15px;
+    font-family: 'Inter', sans-serif;
+    color: #1d78b0;
+    font-size: 14px;
+}
+
+#scratch{
+    margin-bottom: 20px;
+    color: #565656;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 12px;
+}
+
+.card-items{
+    display: flex;
+    padding: 3%;
+}
+
+#card-img{
+    margin-right: 15px;
+}
+
+.card-desc{
+    display: flex;
+}
+
+#placement{
+    margin-right: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+#eligibility{
+    margin-right: 80px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+#duration{
+    margin-right: 77px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+#effort{
+    margin-right: 60px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+#batch{
+    margin-right: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.horizontal-line{
+    border-bottom: 2px solid #00000033;
+}
+
+.beg-logo>p{
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#months{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#eligible{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#duration-months{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#hours{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#batch-date{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#course-heading{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #6c51ed;
+    margin-bottom: 20px;
+}
+
+#course-list{
+    font-weight: 400;
+    font-size: 36px;
+    color: #2f80ed;
+    font-family: 'ABeeZee', sans-serif;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#broucher{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+}
+
+#learn-more{
+    background-color: #2f80ed;
+    color: white;
+    font-style: italic;
+    font-family: 'ABeeZee', sans-serif;
+    margin-left: 8px;
+}
+
+.beg-int{
+    display: flex;
+    margin-left: 180px;
+}
+
+.pay-after-placement{
+    background-color: #ffeed8;
+    color: #965400;
+    border-radius: 7px;
+    padding: 6px 15px 6px 15px;
+    margin-right: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.lifetime-access{
+    background-color: #ffeed8;
+    color: #965400;
+    border-radius: 7px;
+    padding: 6px 15px 6px 15px;
+    margin-right: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.intermediate{
+    background-color: white;
+    width: fit-content;
+    border-radius: 9px;
+    padding: 20px 10px;
+    margin-right: 30px;
+}
+
+.beginner:hover{
+    cursor: pointer;
+    border: white;
+}
+
+.intermediate:hover{
+    cursor: pointer;
+    border: 2px solid #2F80ED;
+}
+
+/* companies */
+.companies{
+    text-align: center;
+}
+
+.companies-heading{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'ABeeZee', sans-serif;
+    color: #6c51ed;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.mnc{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.engineer{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    color: #2F80ED;
+    margin-bottom: 20px;
+}
+
+.from-accio{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #595959;
+    margin-bottom: 30px;
+}
+
+.companies-logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.placement-report{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+    background-color: #2F80ED;
+}
+
+/* student-wall */
+
+.alumni-stories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.alumni-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.student{
+    border-radius: 10px;
+    border: 2px solid #D7D7D7;
+    box-shadow: 5px 9px 40px 0px #00000014;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.alumni-name{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.alumni-position{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 602;
+    color: #676767;
+    line-height: 24px;
+}
+
+
+
+.alumni-header-image{
+    margin-right: 10px;
+}
+
+.alumni-details{
+    margin-right: 10px;
+}
+
+.alumni-content{
+    margin-bottom: 15px;
+}
+
+.alumni-content>p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #676767;
+}
+
+.alumni-date{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #676767;
+}
+
+.wall-of-love{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.alumni-words{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #595959;
+    margin-bottom: 40px;
+}
